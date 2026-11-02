@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-App-Launcher/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-App-Launcher?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-App-Launcher/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-App-Launcher?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-App-Launcher/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-App-Launcher?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-App-Launcher/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Enterprise-App-Launcher" alt="GitHub issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Enterprise-App-Launcher/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-App-Launcher" alt="License" /></a>
@@ -70,7 +70,7 @@ The following enterprise platforms provide managed Single Sign-On (SSO) portals,
 
 Curated open-source projects for self-hosted application dashboards, SSO portals, identity providers with user launchpads, and embedded application switchers.
 
-*Sorted by GitHub Star count in descending order:*
+*Sorted by GitHub Stars_Count in descending order:*
 
 ### 1. [Homepage](https://github.com/gethomepage/homepage) [![Stars](https://img.shields.io/github/stars/gethomepage/homepage?style=social&color=white)](https://github.com/gethomepage/homepage/stargazers)
 * **Description**: A modern, hyper-fast, secure, and highly customizable application dashboard and startpage for self-hosted infrastructure and internal tools.
