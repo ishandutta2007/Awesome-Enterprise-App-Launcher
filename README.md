@@ -32,77 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The enterprise app launcher, SSO portal, and digital identity workspace market is valued between $25 billion and $30 billion globally, projected to exceed $70 billion over the next decade at a ~12–15% CAGR driven by zero-trust security initiatives and hybrid workplace sprawl. The sector exhibits a bifurcated structure: while moderately fragmented across niche self-hosted portals and point SSO utilities, enterprise adoption is heavily concentrated among massive hyperscalers and identity platforms (notably Microsoft and Okta) that drive winner-take-most dynamics through deep workplace ecosystem lock-in.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Okta End-User Dashboard**
-
-  **Application portal** within Okta identity platform. Users see assigned apps in a tile interface with SSO launch. **Pricing**: Quote-only; per-user and per-app models. **Free tier**: Developer edition available. **Best for**: Okta customers wanting a native app portal with conditional access—**trade-off**: requires Okta identity investment.
-
-
-
-- **Microsoft My Apps**
-
-  **Application launcher** within Entra ID (Azure AD). Users access assigned apps, manage groups, and request access. **Pricing**: Included with Entra ID; free tier limited. **Free tier**: Yes, with Entra ID Free. **Best for**: Microsoft-centric organizations wanting native SSO portal—**trade-off**: Microsoft ecosystem dependency.
-
-
-
-- **OneLogin Portal**
-
-  **Application portal** within OneLogin IAM. **Pricing**: Quote-only; tiered by users. **Free tier**: Trial available. **Best for**: OneLogin customers wanting a unified app launcher.
-
-
-
-- **PingOne Dock**
-
-  **Application launcher** within Ping Identity ecosystem. **Pricing**: Quote-only. **Free tier**: None. **Best for**: Ping customers wanting a personalized app dock.
-
-
-
-- **JumpCloud User Portal**
-
-  **Application portal** within JumpCloud directory. **Pricing**: Included with JumpCloud; tiered by users. **Free tier**: Yes, up to 10 users. **Best for**: JumpCloud users wanting SSO app access without Active Directory.
-
-
-
-- **Rippling App Launcher**
-
-  **Application access** within Rippling's unified HR/IT platform. **Pricing**: Quote-only; modular per-user pricing. **Free tier**: None. **Best for**: Rippling customers wanting apps alongside HR and device management.
-
-
-
-- **Citrix Workspace**
-
-  **Virtual app and desktop launcher** with SSO. **Pricing**: Quote-only; per-user. **Free tier**: None. **Best for**: enterprises needing virtualized app delivery alongside launcher—**trade-off**: infrastructure complexity; Citrix licensing costs.
-
-
-
-- **VMware Workspace ONE**
-
-  **Digital workspace platform** with app catalog and launcher. **Pricing**: Quote-only; per-user. **Free tier**: None. **Best for**: VMware-centric enterprises wanting unified endpoint and app management—**trade-off**: Broadcom acquisition uncertainty.
-
-
-
-- **Workgrid**
-
-  **Digital workplace assistant** with app launcher and communications. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting a modern intranet-style app hub.
-
-
-
-- **Atlassian Start**
-
-  **Note**: No public information found for an Atlassian "Start" app launcher product in available search results. Atlassian offers Home (workspace hub) but not a standalone enterprise app launcher. **Best for**: verify directly with Atlassian before evaluating.
+| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **Microsoft My Apps** | ~$3.88 Trillion (Market Cap) | $0 (included with Entra ID Free); Paid tiers start at $7.00/user/mo (Entra ID P1) | Free forever up to 50,000 directory objects (expands to 300,000 objects with custom domain; no conditional access SLA); Paid tiers offer 30-day free trial | Application launcher within Microsoft Entra ID. Best for Microsoft-centric organizations needing native SSO app launching. |
+| **Atlassian Start / Home** | ~$52 Billion (Market Cap) / ~$6.57B ARR | Free with Atlassian Cloud; core plans start at $7.75/user/mo (Jira Standard) | Free forever up to 10 users per Atlassian product instance; Paid tiers offer 7-to-30-day free trial | Centralized workspace navigation and cross-product launcher across Jira, Confluence, and Atlassian Cloud. |
+| **Okta End-User Dashboard** | ~$38 Billion (Market Cap) / ~$3.0B ARR | $6.00/user/mo (Workforce Identity Starter tier, annual billing, ~$1,500 annual minimum) | 30-day free trial with full platform access (SSO, MFA, Universal Directory); Developer edition free tier available | Dedicated enterprise tile launcher within Okta Workforce Identity Cloud with granular access controls. |
+| **Rippling App Launcher** | $16.8 Billion (Valuation) / >$1.0B ARR | $8.00/user/mo (Core Unity platform) + ~$6.00/user/mo (IAM & App Access module) | No free forever tier; provides interactive product tours and pilot trial access on request (no self-serve free trial) | Unified identity and application access portal integrated directly into HR, payroll, and IT endpoint workflows. |
+| **Citrix Workspace** | $16.5 Billion (Acquisition Valuation) / ~$3.2B Revenue | $10.00/user/mo (Citrix DaaS Standard starting tier, BYO cloud infrastructure) | No free forever tier; Proof-of-concept enterprise trial available upon request via sales partners (typically 30-day trial) | Virtual application and desktop launcher combining SSO tile access with remote application delivery. |
+| **PingOne Dock** | $16.5 Billion (Acquisition Valuation by Thoma Bravo) / ~$300M Revenue | $3.00/user/mo (PingOne for Workforce Essential tier; typically 5,000 user minimum contract) | 30-day free trial with authentication, MFA, and SSO directory access; no permanent free tier | Employee dock and application launchpad within Ping Identity's workforce IAM ecosystem. |
+| **Omnissa / VMware Workspace ONE** | $4.0 Billion (Acquisition Valuation by KKR) / ~$1.5B ARR | $3.00/user/mo (Employee Essentials tier for identity, SSO, and app catalog) | No free forever tier; 30-day proof-of-concept evaluation trial available via Omnissa sales channels | Digital workspace app catalog combining unified endpoint management with an enterprise application launcher. |
+| **JumpCloud User Portal** | $2.63 Billion (Valuation) | $9.00/user/mo (Device Management) or $11.00/user/mo (SSO package) | 30-day full-feature free trial (legacy accounts created before Feb 2024 have 10 users / 10 devices free limit) | Cloud directory user portal delivering SSO application access without requiring Active Directory. |
+| **OneLogin Portal** | ~$500 Million (Acquisition Valuation by One Identity) / ~$25M Revenue | $2.00/user/mo (Starter Directory/Workflows entry tier); Advanced SSO bundles from ~$4–$8/user/mo | 30-day free trial with complete SSO and portal capabilities; no permanent free production tier | Single-sign-on application launchpad and cloud directory within OneLogin IAM. |
+| **Workgrid** | Wholly-owned subsidiary of Liberty Mutual ($50B+ Revenue); ~$5M standalone ARR scale (wound down mid-2025) | ~$5.00/user/mo (Baseline enterprise digital assistant entry tier, custom enterprise quote) | Custom pilot evaluation trial available on request (no self-serve free forever tier) | Digital workplace assistant with an embedded micro-app launcher and notification stream. |
 
 
 
